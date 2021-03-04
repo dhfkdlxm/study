@@ -8,4 +8,5 @@ Source Tree란?
 단점 : 리눅스 지원x, 세부적인 코드 수정 불가
 
 앞서 Bash 에서 배웠던 내용을 좀더 보기쉽게 만든것임!
+https://opentutorials.org/module/3746/22491
 https://gbsb.tistory.com/9
