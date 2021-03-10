@@ -1,5 +1,6 @@
 package kr.ac.kopo.day02.homework;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 /*
@@ -21,17 +22,21 @@ public class Homework01 {
 		int num1 = sc.nextInt();
 		System.out.print("두번재 정수 : ");
 		int num2 = sc.nextInt();
-		int plus = num1 + num2;
-		int minus = num1 - num2;
-		int multi = num1 * num2;
-		double devide = (double) num1 / num2;
-		int rest = num1 % num2;
 
-		System.out.println(num1 + "+" + num2 + "=" + plus);
-		System.out.println(num1 + "-" + num2 + "=" + minus);
-		System.out.println(num1 + "*" + num2 + "=" + multi);
-		System.out.println(num1 + "/" + num2 + "=" + devide);
-		System.out.println(num1 + "%" + num2 + "=" + rest);
+		int plus = num1+num2;
+		int minus = num1-num2;
+		int multi = num1*num2;
+		double devide = (double)num1/num2;
+		int rest = num1%num2;
+		
+		
+		System.out.println(num1+"+"+num2+"=" + plus);
+		System.out.println(num1+"-"+num2+"=" + minus);
+		System.out.println(num1+"*"+num2+"=" + multi);
+		System.out.printf("%d / %d = %.2f\n", num1, num2, devide);
+		System.out.println(num1+"%"+num2+"=" + rest);
+		
+		
 
 	}
 
