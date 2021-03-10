@@ -1,5 +1,6 @@
 package kr.ac.kopo.day02.homework;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 /*
@@ -31,7 +32,7 @@ public class Homework01 {
 		System.out.println(num1+"+"+num2+"=" + plus);
 		System.out.println(num1+"-"+num2+"=" + minus);
 		System.out.println(num1+"*"+num2+"=" + multi);
-		System.out.println(num1+"/"+num2+"=" + devide);
+		System.out.printf("%d / %d = %.2f\n", num1, num2, devide);
 		System.out.println(num1+"%"+num2+"=" + rest);
 		
 		
