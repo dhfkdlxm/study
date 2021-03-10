@@ -3,13 +3,13 @@ package kr.ac.kopo.day02.homework;
 import java.util.Scanner;
 
 /*
- * - °úÁ¦ : 2°³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ ´ÙÀ½°ú °°ÀÌ Ãâ·ÂÇÏ´Â ÄÚµå¸¦ ÀÛ¼º
-   - Ã¹¹øÂ° Á¤¼ö : 12
-   - µÎ¹øÂ° Á¤¼ö : 6
+ * - ê³¼ì œ : 2ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ ë‹¤ìŒê³¼ ê°™ì´ ì¶œë ¥í•˜ëŠ” ì½”ë“œë¥¼ ì‘ì„±
+   - ì²«ë²ˆì§¸ ì •ìˆ˜ : 12
+   - ë‘ë²ˆì§¸ ì •ìˆ˜ : 6
    - 12 +5 = 17
    - 12- 5 = 7
    - 12*5 = 60
-   - 12/5 = 2.40 // ¼Ò¼öÁ¡ µÑÂ°Â¥¸® ±îÁö Ãâ·Â
+   - 12/5 = 2.40 // ì†Œìˆ˜ì  ë‘˜ì§¸ì§œë¦¬ ê¹Œì§€ ì¶œë ¥
    - 12 % 5 = 2
 */
 
@@ -17,24 +17,21 @@ public class Homework01 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Ã¹¹øÀç Á¤¼ö : ");
+		System.out.print("ì²«ë²ˆì¬ ì •ìˆ˜ : ");
 		int num1 = sc.nextInt();
-		System.out.print("µÎ¹øÀç Á¤¼ö : ");
+		System.out.print("ë‘ë²ˆì¬ ì •ìˆ˜ : ");
 		int num2 = sc.nextInt();
-		int plus = num1+num2;
-		int minus = num1-num2;
-		int multi = num1*num2;
-		double devide = (double)num1/num2;
-		int rest = num1%num2;
-		
-		
-		System.out.println(num1+"+"+num2+"=" + plus);
-		System.out.println(num1+"-"+num2+"=" + minus);
-		System.out.println(num1+"*"+num2+"=" + multi);
-		System.out.println(num1+"/"+num2+"=" + devide);
-		System.out.println(num1+"%"+num2+"=" + rest);
-		
-		
+		int plus = num1 + num2;
+		int minus = num1 - num2;
+		int multi = num1 * num2;
+		double devide = (double) num1 / num2;
+		int rest = num1 % num2;
+
+		System.out.println(num1 + "+" + num2 + "=" + plus);
+		System.out.println(num1 + "-" + num2 + "=" + minus);
+		System.out.println(num1 + "*" + num2 + "=" + multi);
+		System.out.println(num1 + "/" + num2 + "=" + devide);
+		System.out.println(num1 + "%" + num2 + "=" + rest);
 
 	}
 

@@ -1,14 +1,21 @@
 package kr.ac.kopo.day02.homework;
 
-/* ¹İÁö¸§À» ÀÔ·Â¹Ş¾Æ ¿øµÑ·¹¿Í ¿ø³ĞÀÌ¸¦ Ãâ·ÂÇÏ´Â ÄÚµå¸¦ ÀÛ¼º(´Ü, ¿øÁÖ¿ïÀ» »ó¼öº¯¼ö¸¦ »ç¿ëÇØ¼­ ÀÛ¼º)
- * ¹İÁö¸§À» ÀÔ·Â : 1
- * ¹İÁö¸§ÀÌ 1ÀÏ¶§, ¿øµÑ·¹´Â xxxxÀÌ°í, ¿ø³ĞÀÌ´Â xxxxÀÌ´Ù.
+import java.util.Scanner;
+
+/* ë°˜ì§€ë¦„ì„ ì…ë ¥ë°›ì•„ ì›ë‘˜ë ˆì™€ ì›ë„“ì´ë¥¼ ì¶œë ¥í•˜ëŠ” ì½”ë“œë¥¼ ì‘ì„±(ë‹¨, ì›ì£¼ìš¸ì„ ìƒìˆ˜ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•´ì„œ ì‘ì„±)
+ * ë°˜ì§€ë¦„ì„ ì…ë ¥ : 1
+ * ë°˜ì§€ë¦„ì´ 1ì¼ë•Œ, ì›ë‘˜ë ˆëŠ” xxxxì´ê³ , ì›ë„“ì´ëŠ” xxxxì´ë‹¤.
 */
 
 public class Homework02 {
 
 	public static void main(String[] args) {
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("ë°˜ì§€ë¦„ì„ ì…ë ¥ : ");
+		int radius = sc.nextInt();
+		double CirCum = 2 * radius * Math.PI;
+		double CirArea = Math.PI * Math.pow(radius, 2);
+		System.out.println("ë°˜ì§€ë¦„ì´ " + radius + "ì¼ë•Œ ì›ë‘˜ë ˆëŠ” " + CirCum + "ì´ê³ " + "ì›ë„“ì´ëŠ” " + CirArea + "ì´ë‹¤.");
 
 	}
 
