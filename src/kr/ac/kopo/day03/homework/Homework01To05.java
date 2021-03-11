@@ -57,6 +57,12 @@ public class Homework01To05 {
 			}
 			System.out.println();
 		}
+		System.out.println("문제 4번 for2 if1");
+//		문제 4번 for2 if1
+		
+		
+		
+		
 
 		System.out.println("문제 5번 for5 if1");
 //		문제 5번 for5 if1
