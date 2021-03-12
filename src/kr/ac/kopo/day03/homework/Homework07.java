@@ -14,7 +14,6 @@ package kr.ac.kopo.day03.homework;
  *      ***
  *       *
 */
-
 public class Homework07 {
 
 	public static void main(String[] args) {
@@ -35,7 +34,7 @@ public class Homework07 {
 				}
 				for (int j = 0; j < 17-(2*i); j++) {
 					System.out.print("*");
-				}				
+				}				 
 				
 			}
 			System.out.println();

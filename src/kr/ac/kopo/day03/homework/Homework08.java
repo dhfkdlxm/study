@@ -32,7 +32,7 @@ public class Homework08 {
 					System.out.print("_");
 				}
 			}System.out.println();
-			if(i<=3) {
+			if(i<4) {
 				++x;
 				--y;
 			}else {
