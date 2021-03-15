@@ -16,8 +16,8 @@ public class HomeWork01 {
 			Ic[i] = new IceCream();
 			System.out.println("***"+(i+1)+"번째 아이스크림 구매 정보 입력");
 			System.out.print("아이스크림명 : ");
-			Ic[i].name = sc.nextLine(); //nextLine()의 ln기능에 의한 넘어감(두 번 작성) 
-			sc.nextLine();
+			sc.nextLine(); //nextLine()의 ln기능에 의한 넘어감(두 번 작성)
+			Ic[i].name = sc.nextLine();  
 			System.out.print("아이스크림 가격 : ");
 			Ic[i].price = sc.nextInt();
 		}
