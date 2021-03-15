@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class HomeWork04_2 {
 
 	public static void main(String[] args) {
-		int[] array = new int[99];
+		int[] array = new int[99]; 
 		// 배열에 2~100까지 넣어!
 		for (int i = 0; i < array.length; i++) {
 			array[i] = i + 2;
@@ -14,7 +14,6 @@ public class HomeWork04_2 {
 		int cnt = 0; // 성능확인용!
 		/*
 		 * for (int i = 0; i < array.length; i++) {
-		 * 
 		 * }
 		 */
 		int i = 0;
@@ -31,7 +30,6 @@ public class HomeWork04_2 {
 		}
 		System.out.println(cnt);
 		System.out.println(Arrays.toString(array));
-
 	}
 
 }

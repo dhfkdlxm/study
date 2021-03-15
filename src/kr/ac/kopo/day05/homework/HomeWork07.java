@@ -17,7 +17,7 @@ public class HomeWork07 {
 		int max = 100;
 		System.out.println("1~100사이 숫자를 생각해주세요!");
 		while(count > 0) {
-			int com = ran.nextInt(max-min)+min;
+			int com = ran.nextInt(max-min)+min;   //반반씩 찾기를 통함!
 			System.out.print("사용자가 생각하는 숫자가 [" + com + "] 입니까?(맞으면 0, 작으면1, 큰수면 2)");
 			int user = sc.nextInt();
 			
