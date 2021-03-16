@@ -33,6 +33,7 @@ public class HomeWork01 {
 		System.out.println("총 계 : "+ result + "원");
 		
 		
+		
 	}
 
 }
