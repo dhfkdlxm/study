@@ -23,7 +23,9 @@ public class StringMain02 {
 		System.out.print("문자를 입력 : ");
 		char c = sc.nextLine().charAt(0);
 		System.out.println(c);
-
+		int a = 'a';
+		int b = 'A';
+		System.out.println(a +" : " + b);
 	}
 
 }

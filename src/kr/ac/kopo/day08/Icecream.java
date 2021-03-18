@@ -5,10 +5,13 @@ public class Icecream {
 	String name;
 	int price;
 	
+	Icecream() {
 	
-	void set(String n, int p) {
-		name = n;
-		price = p;
+	}
+	
+	Icecream(String name, int price) {
+		this.name = name;
+		this.price = price;
 	}
 	
 	 String getName() {

@@ -56,9 +56,7 @@ public class IcecreamMarket {
 		System.out.println("***" + (i+1) + "번째 아이스크림 구매정보 입력 ***");
 		String name = inputString("아이스크림명 : ");
 		int price = inputInt("아이스크림 가격 : ");
-		iceArr[i] = new Icecream();
-		iceArr[i].set(name, price); //아이스크림 객체를 넣어주는 메소드(아이스크림. class 입력)
-		
+		iceArr[i] = new Icecream(name, price); 		
 	}
   }
   

@@ -28,6 +28,9 @@ public class Car {
 		//일반 Method와 동일하게 취금
 		System.out.println("생성자가 아닌 일반 메소드  Car() 호출!!>>>!!!>>>>!!!!");
 	}
+	static void test() {
+		
+	}
 	
 	
 	
