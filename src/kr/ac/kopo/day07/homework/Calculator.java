@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Calculator {
 	Scanner sc = new Scanner(System.in);
-	
 	/**
 	 *  더하기
 	 * @param a 입력 정수
