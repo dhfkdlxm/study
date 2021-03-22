@@ -1,4 +1,4 @@
-package kr.ac.kopo.day11.homework;
+package kr.ac.kopo.day10.homwork;
 
 public class AreaCalMain {
 
