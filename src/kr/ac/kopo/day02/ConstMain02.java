@@ -9,10 +9,9 @@ public class ConstMain02 {
 		
 		ch = 65;
 		
-		ch = '\u0045';
 		
-		System.out.println("¹®ÀÚ : "+ ch);
-		System.out.println(""+'A'+'B');
+		System.out.println(ch);
+		System.out.println("" +'A'+'B'+null);
 		
 
 	}
