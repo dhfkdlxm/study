@@ -7,10 +7,7 @@ public class Square extends Rectangular {
 	
 	public Square(int ver) {
 		super(ver, ver);
-	}
-
-	@Override
-	public void CalArea() {
 		super.CalArea();
 	}
+	
 }
