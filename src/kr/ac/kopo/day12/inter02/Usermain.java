@@ -6,6 +6,7 @@ public class Usermain {
 		// 다형성의 장점!
 		// 객체가 삼성//LG건 상관없이 모든 메소드 사용가능;
 		TV tv = new SamsungTV();
+		tv = new LGTV(); 
 		tv.powerOn();
 		tv.channelDown();
 		tv.soundDown();

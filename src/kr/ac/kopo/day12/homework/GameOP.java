@@ -9,6 +9,8 @@ public class GameOP {
 	private static int cntWin = 0;
 	private static int cntLose = 0;
 	private static int cntDraw = 0;
+	private int input;
+	
 
 	public String selectGame() {
 		System.out.println("게임을 선택하세요 \n A. 가위바위보 \n B. 주사위 값 맞추기 \n C. 종료");
@@ -16,24 +18,19 @@ public class GameOP {
 		return select;
 	}
 	
-	public int inputyou() {
-		int input = sc.nextInt();
-		sc.nextLine();
-		return input;
-	}
-
 	public void operator() {
 		Game g = null;
 		while (checkGame) {
 			int result = 2;
 			select = selectGame();
 			if (select.equalsIgnoreCase("A")) {
-				
+				g= new ScissorsRockPaper();
+				input=g.inputYou();
+				result = g.startGame(input);
 			} else if (select.equalsIgnoreCase("B")) {
-				System.out.println("주사위 값 맞추기 게입니다.");
-				System.out.println("주사위를 선택하세요(1~6값 중 하나");
 				g = new Dice();
-				result = g.startGame(inputyou());
+				input=g.inputYou();
+				result = g.startGame(input);
 			} else if (select.equalsIgnoreCase("C")) {
 				System.out.println("게임을 종료합니다.");
 				pntResult();
