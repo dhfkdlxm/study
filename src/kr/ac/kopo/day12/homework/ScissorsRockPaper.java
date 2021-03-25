@@ -7,6 +7,7 @@ public class ScissorsRockPaper implements Game {
 	final static int ROCK = 2;
 	final static int PAPER = 3;
 	private int input;
+	int result;
 	private int me = (int) (Math.random() * 3 + 1);
 	Scanner sc = new Scanner(System.in);
 
@@ -15,13 +16,16 @@ public class ScissorsRockPaper implements Game {
 	public int startGame(int you) {
 		if (me == you) {
 			System.out.println("비겼습니다.");
-			return -1;
+			result = -1;
 		} else if ((me == 1 && you == 3) || (me == 2 && you == 1) || (me == 3 && you == 2)) {
 			System.out.println("졌습니다.");
-			return 0;
-		} else if ((me == 1 && you == 2) || (me == 2 && you == 3) || (me == 3 && you == 1))
+			result = 0;
+		} else if ((me == 1 && you == 2) || (me == 2 && you == 3) || (me == 3 && you == 1)) {
+			
 			System.out.println("이겼습니다.");
-		return 1;
+			result = 1;
+		}
+		return result;
 
 	}
 
