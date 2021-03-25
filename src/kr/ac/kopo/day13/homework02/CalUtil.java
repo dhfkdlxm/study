@@ -34,6 +34,7 @@ public class CalUtil {
 		for (int i = 0; i < dayArr.length; i++) {
 			System.out.print(dayArr[i] + "\t");
 		}
+		
 		for (int i = 0; i < monthArr.length; i++) {
 			for (int j = 0; j < monthArr[i].length; j++) {
 				if (i == 0 && j < firstday) {
