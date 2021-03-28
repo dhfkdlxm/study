@@ -27,8 +27,8 @@ public class StringMain04 {
 		String str2 = "!!!!";
 		
 		str = str1 + str2;
-		str = str1.concat(str2);
 		System.out.println("str1+str2 : "+ str);
+		str = str1.concat(str2);
 		System.out.println("concat(str1,str2) : "+ str);
 		
 		System.out.println("< 문자열. replace() Method >");

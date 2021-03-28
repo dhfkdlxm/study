@@ -130,7 +130,8 @@ public class MapMain02 {
 		System.out.println("등록대수 : " + carList.size());
 		carList.put(new Member("홍길동", "010-1111-2222"), new Car("제네시스", "42너3795"));
 		System.out.println("등록대수 : " + carList.size());
-
+		carList.put(new Member("윤정환", "010-4225-3870"), new Car("지프랭글러", "329조1499"));
+		System.out.println("등록대수 : " + carList.size());
 //		Member m = new Member("홍길동", "010-1111-2222");
 //		Member m2 = new Member("홍길동", "010-1111-2222");
 //

@@ -9,11 +9,14 @@ public class StringMain02 {
 		
 		String str = "Hello World";
 		char[] chars = new char[str.length()];
+		System.out.println(Arrays.toString(chars));
 		
 		str.getChars(0, str.length(), chars, 0);
+		System.out.println(Arrays.toString(chars));
 		for (int i = 0; i < chars.length; i++) {
 			chars[i] = str.charAt(i);
 		}
+		
 		System.out.println(Arrays.toString(chars));
 		System.out.println("["+str + "]의 길이 : "+str.length());
 		System.out.println("0번째 위치한 문자 : "+ str.charAt(0));

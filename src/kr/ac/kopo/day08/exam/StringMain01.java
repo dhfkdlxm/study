@@ -19,5 +19,6 @@ public class StringMain01 {
 		System.out.println("str3 : ["+ str4 +"]");
 		System.out.println("str3 : ["+ str5 +"]");
 		System.out.println("str3 : ["+ str6 +"]");
+		System.out.println("str5 == str6 ? : " + (str5==str6));
 	}
 }

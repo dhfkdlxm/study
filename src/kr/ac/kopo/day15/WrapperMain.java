@@ -37,6 +37,7 @@ public class WrapperMain {
 		
 		//리턴 값이 다름
 		int num = Integer.parseInt(str);	//기본 자료형 int형
+		System.out.println(100+num);
 		num = Integer.valueOf(str);         //참조 자료형 Integer(참조자료형)
 		System.out.println(100+num);
 	}

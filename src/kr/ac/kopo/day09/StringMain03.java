@@ -41,8 +41,8 @@ public class StringMain03 {
 		// Object로부터 무조건 상속받는 Method임!
 
 		// startsWith: hello로 시작되는 지 비교하기 위해 확인하는 Method
-		str = "hello!!";
-		str2 = "hello world";
+		str = "Hello!!";
+		str2 = "Hello world";
 
 		String sub = "hello";
 		bool = str.startsWith(sub);
