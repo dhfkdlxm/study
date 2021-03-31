@@ -16,7 +16,7 @@ public class ExceptionMain02 {
 			System.out.println(10 / num);			
 			System.out.println("첫번째 문자 : "+ str.charAt(0));
 		} catch (Exception e) {
-			e.getMessage();
+			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}
 		System.out.println("main end....");

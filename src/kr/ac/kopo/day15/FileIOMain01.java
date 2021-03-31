@@ -32,6 +32,11 @@ public class FileIOMain01 {
 		 * 
 		 * }
 		 */
+		
+		
+		// Stream Open!
+		// read/write
+		// Stream close!
 	}
 
 }

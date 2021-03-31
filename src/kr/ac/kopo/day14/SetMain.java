@@ -32,6 +32,7 @@ public class SetMain {
 		 * set의 전체 데이터 출력 방식
 		 * 1. 1.5버전 for문
 		 * 2. Iterator 메소드 활용 
+		 * 3. to.array
 		*/
 		System.out.println("\n < 1.5버전의 for문 이용 출력 > ");
 		for(String str : set) {

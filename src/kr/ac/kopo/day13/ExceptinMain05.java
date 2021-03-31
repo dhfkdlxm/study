@@ -44,6 +44,7 @@ public class ExceptinMain05 {
 //		a();
 		Child obj = new Child();
 		obj.print();
+		a();
 		try {
 			obj.scan();
 		} catch (Exception e) {
@@ -61,7 +62,7 @@ public class ExceptinMain05 {
 	}
 	
 	public static void a() {
-		System.out.println("a() 메소드 호출....");
+		System.out.println("\"\"a() 메소드 호출....");
 		
 		
 		try {

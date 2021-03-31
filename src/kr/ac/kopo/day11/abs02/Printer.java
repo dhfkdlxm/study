@@ -5,4 +5,5 @@ public abstract class Printer {
 	String productName;
 	
 	public abstract void print();
+
 }

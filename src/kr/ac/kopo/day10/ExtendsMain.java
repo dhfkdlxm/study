@@ -1,5 +1,5 @@
 package kr.ac.kopo.day10;
-class One{
+ class  One{
 	One(){
 		System.out.println("One 생성자 호출...");
 	}
