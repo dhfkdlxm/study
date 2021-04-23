@@ -10,3 +10,7 @@ Source Tree란?
 앞서 Bash 에서 배웠던 내용을 좀더 보기쉽게 만든것임!
 https://opentutorials.org/module/3746/22491
 https://gbsb.tistory.com/9
+
+
+Pseudo column설명
+https://thebook.io/006696/part01/ch03/07/
