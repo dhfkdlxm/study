@@ -48,11 +48,6 @@ public class InsertMain03 {
 			//4단계 : SQL 문 실행 및 결과 얻기 
 		    int cnt = pstmt.executeUpdate();
 		    System.out.println(cnt + "개 행 삽입");
-		    
-		    
-		    
-		    
-		    
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
