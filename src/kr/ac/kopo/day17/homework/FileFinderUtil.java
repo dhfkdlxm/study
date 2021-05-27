@@ -27,18 +27,30 @@ public class FileFinderUtil {
 		System.out.println(
 				"----------------------------------------------------------------------------------------------");
 	}
+	
+	public File dirFile(String dirName) {
+		File dirObj = new File(dirName);
+		return dirObj;
+	}
+	
 
 	public void view(String dirName) {
-		File dirObj = new File(dirName);
+		File dirObj = dirFile(dirName);
 		fileList(dirObj);
 		String input = input("[M]새폴더\t\t[R]이름변경\t[D]삭제\t[.]상위폴더이동\t[MOVE]하위폴더이동");
 
 		switch (input) {
 		case "M":
-			System.out.println(dirObj.mkdirs()?"생성성공": "생성실패");
+			String newDirName = input("새폴더 명을 입력하세요 : ");
+			
+			System.out.println(dirFile(dirName+"/"+newDirName).mkdirs() ? "생성 성공": "생성실패");;
+			
 			break;
 		case "R":
-
+			String nowDirName = input("기존 파일명을 입력하세요 ");
+			String updateDirName = input("변경할 파일명을 입력하세요 ");
+			System.out.println(dirFile(nowDirName));
+			dirObj.renameTo(dirObj);
 			break;
 		case "D":
 
@@ -57,7 +69,7 @@ public class FileFinderUtil {
 
 	public String input(String msg) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println(msg);
+		System.out.print(msg);
 		String input = sc.nextLine();
 		return input;
 	}

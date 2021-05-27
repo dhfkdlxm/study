@@ -37,9 +37,6 @@ public class FileMain {
 		
 		boolean bool = newDirObj.delete();
 		System.out.println(bool ? "삭제성공" : "삭제실패");
-		
-		
-		
 		//--------------------------------------------
 		
 		//파일 정보 보기!
