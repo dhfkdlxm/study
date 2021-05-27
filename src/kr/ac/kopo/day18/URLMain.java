@@ -3,6 +3,7 @@ package kr.ac.kopo.day18;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
+import java.net.URLConnection;
 
 public class URLMain {
 
@@ -19,8 +20,9 @@ public class URLMain {
 			System.out.println("쿼리 : " + urlObj.getQuery());
 			
 			System.out.println("==================================================================");
-			InputStream is = urlObj.openStream();
-			InputStreamReader isr = new InputStreamReader(is);
+			URLConnection uc = urlObj.openConnection();
+			InputStream is = uc.getInputStream();
+			InputStreamReader isr = new InputStreamReader(is, "utf-8");
 			while(true) {
 				int c = isr.read();
 				if(c == -1) break;
