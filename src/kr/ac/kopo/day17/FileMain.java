@@ -9,6 +9,7 @@ public class FileMain {
 	public static void main(String[] args) {
 
 		File dirObj = new File("iodata");
+		System.out.println(dirObj.getParent());
 		System.out.println(dirObj.exists() ? "유효한 디렉토리 입니다." : "유효하지 않는 디렉토리입니다.");
 		
 		System.out.println(dirObj.isDirectory() ? "디렉토리 입니다." : "디렉토리가 아닙니다.");
