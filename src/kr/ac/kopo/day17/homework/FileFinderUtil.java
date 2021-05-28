@@ -50,7 +50,7 @@ public class FileFinderUtil {
 			String nowDirName = input("기존 파일명을 입력하세요 ");
 			String updateDirName = input("변경할 파일명을 입력하세요 ");
 			System.out.println(dirFile(nowDirName));
-			dirObj.renameTo(dirObj);
+			
 			break;
 		case "D":
 
