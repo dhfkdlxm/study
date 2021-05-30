@@ -1,25 +1,18 @@
 package kr.ac.kopo.day17.homework;
 
-public class DonationThread  {
-	
-	
-	
-	
-	public synchronized void callOne() {
-
-		
+public class DonationThread extends Thread  {
+	CallCenterThread cct = new CallCenterThread();
+	private int type;
+	private int result;
+	public DonationThread(int type) {
+		this.type = type;
 	}
 
-	public synchronized void callTwo() {
 
+	@Override
+	public void run() {
+		cct.getCall(type);
 	}
-
-	public synchronized void callThree() {
-
-	}
-
-	public synchronized void callFour() {
-
-	}
+	
 
 }
